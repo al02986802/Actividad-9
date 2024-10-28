@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Mental: Formas de Exclusión</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .map-container {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .branches {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .branch {
+            width: 45%;
+            background-color: #e6f7ff;
+            border-left: 8px solid;
+            border-radius: 8px;
+            padding: 15px;
+            box-sizing: border-box;
+            color: #333;
+        }
+        .elimination { border-color: #ff4d4d; }
+        .assimilation { border-color: #ffa64d; }
+        .domination { border-color: #4d94ff; }
+        .abandonment { border-color: #80d4ff; }
+        .branch-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .branch-description {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="map-container">
+        <div class="title">Mapa Mental: Formas de Exclusión</div>
+        <div class="branches">
+            <div class="branch elimination">
+                <div class="branch-title">Eliminación</div>
+                <div class="branch-description">
+                    La exclusión extrema busca erradicar por completo a un individuo o grupo, dejándolos completamente aislados.
+                    <br><strong>Ejemplo:</strong> En el bullying escolar, algunos estudiantes son excluidos intencionalmente y se les evita en actividades.
+                </div>
+            </div>
+            <div class="branch assimilation">
+                <div class="branch-title">Asimilación</div>
+                <div class="branch-description">
+                    Presiona a un grupo o persona para que abandone su identidad y adopte valores y normas dominantes.
+                    <br><strong>Ejemplo:</strong> Una persona migrante se ve obligada a ocultar su cultura y aprender otro idioma sin apoyo para mantener su lengua materna.
+                </div>
+            </div>
+            <div class="branch domination">
+                <div class="branch-title">Dominación</div>
+                <div class="branch-description">
+                    Un grupo impone su poder sobre otro, manteniéndolo en una posición de subordinación.
+                    <br><strong>Ejemplo:</strong> En una empresa, se espera que personas de ciertos roles acaten órdenes sin participar en decisiones.
+                </div>
+            </div>
+            <div class="branch abandonment">
+                <div class="branch-title">Abandono</div>
+                <div class="branch-description">
+                    Ignorar o dejar de lado a personas o grupos, negándoles acceso a recursos y oportunidades.
+                    <br><strong>Ejemplo:</strong> Las personas mayores no cuentan con infraestructura accesible, dificultando su integración social.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
